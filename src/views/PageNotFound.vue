@@ -1,8 +1,6 @@
 <template>
-<NavBar/>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+    <NavBar/>
+  <h1>PAGE NOT FOUND</h1>
 </template>
 
 <script>

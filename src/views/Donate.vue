@@ -1,16 +1,17 @@
 <template>
 <NavBar/>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <h2>Donate here!</h2>
+  <Button name="Donate Today!" color="purple"></Button>
 </template>
 
 <script>
 import NavBar from "@/components/NavBar.vue"
+import Button from "@/components/Button.vue"
 
 export default {
     components: {
         NavBar,
+        Button,
     }
 }
 </script>
